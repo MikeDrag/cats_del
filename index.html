@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cats</title>
+	<style>
+		button {
+			padding: 10px 5px;
+		}
+		td, tr {
+			/*font-size: 20px;*/
+			/*padding: 1rem;*/
+		}
+	</style>
+</head>
+<body>
+	<span>Sorting:</span>
+	<button id="sort-default" class="sort-btn" data-sort-type="default">Default</button>
+	<button id="sort-much-cute" class="sort-btn" data-sort-type="cute">Much cute</button>
+	<button id="sort-cute" class="sort-btn" data-sort-type="not-cute">Not cute</button>
+	<div id="cats">
+		<ul id="catList"></ul>
+	</div>
+
+	<script type="module" src="./app.js"></script>
+</body>
+</html>
